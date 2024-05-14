@@ -1,0 +1,16 @@
+[package]
+name = "keydio"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[package.metadata]
+assets = [
+    "audio/enter.mp3",
+    "audio/exit.mp3"
+]
+
+[dependencies]
+inputbot = "0.6"
+rodio = "0.18"
+single-instance = "0.3.3"
