@@ -25,5 +25,34 @@ To remove a sound for a key or combo, simply delete its audio file. You can plac
 To exit Keydio, press **Ctrl+Alt+Q**. You can even change the sound that plays as it exits (*exit.mp3*)!
 
 **Note:** Sounds must not be any longer than 4 seconds.
+# Building
+To build Keydio, first install the Rust toolchain.
+
+## Windows
+Download Rustup [here](https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe), then follow the instructions.
+
+## Linux
+Run the following command in your terminal.
+
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+**Arch-based distros:** It's recommended to install Rustup with your package manager. For example:
+```
+sudo pacman -S rustup
+```
+
+---
+
+After that, run the following lines in a terminal.
+
+```
+git clone https://github.com/mango-ki/keydio.git
+cd keydio
+cargo build
+cargo run
+```
+
+
 # Attribution
 App logo by Freepik.
