@@ -7,6 +7,7 @@ Keydio can play a unique sound for each of the following keys/combos:
 - **Enter** (*enter.mp3*)
 - **Backspace** (*back.mp3*)
 - **Space** (*space.mp3*)
+- **Delete** (*delete.mp3*)
 - **Print Screen** (*prntscrn.mp3*)
 - **Ctrl+S** (*save.mp3*)
 - **Ctrl+Z** (*undo.mp3*)
