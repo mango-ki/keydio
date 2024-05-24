@@ -98,6 +98,11 @@ fn main() {
         if LControlKey.is_pressed() && LAltKey.is_pressed() {
             play_audio("audio\\panic.mp3");
         }
+
+        //Only DELETE
+        else {
+            play_audio("audio\\delete.mp3");
+        }
     });
 
     //CTRL+SHIFT+ESCAPE listener
